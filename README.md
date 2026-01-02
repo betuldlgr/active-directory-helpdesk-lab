@@ -12,6 +12,7 @@ Active Directory home lab demonstrating Windows Server administration and Help D
   - Active Directory Domain Services (AD DS)
   - DNS Server
 - Created a new Active Directory domain (`company.local`)
+  ![](Screenshots/01-server-manager-dashboard.png)
 
 ---
 
@@ -24,6 +25,8 @@ Active Directory home lab demonstrating Windows Server administration and Help D
   - mary.hr (HR)
 - Enforced password change at first logon
 
+![](Screenshots/02-aduc-ou-users.png)
+
 ---
 
 ### 3. Network Configuration
@@ -34,7 +37,8 @@ Active Directory home lab demonstrating Windows Server administration and Help D
 - Configured DNS:
   - Server uses itself as DNS (`127.0.0.1`)
   - Client points DNS to the Domain Controller
-
+    
+![](Screenshots/03-server-static-ip.png)
 ---
 
 ### 4. Client Configuration
@@ -43,6 +47,7 @@ Active Directory home lab demonstrating Windows Server administration and Help D
 - Joined the client machine to the domain
 - Successfully logged in using a domain user account
 
+![](Screenshots/04-domain-join-success.png)
 ---
 
 ## Troubleshooting Scenarios
